@@ -1,0 +1,120 @@
+.hidden{
+    display: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock1 {
+    font-size: 6em;
+}
+
+.clock2 {
+    color:white;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin-bottom: 40px;
+    color: white;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.center .name__input {
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 36px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+input {
+    background: none;
+    appearance: none;
+    border: 0;
+    font-size: 22px;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.location {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in;
+    font-style: italic;
+    font-size: 12px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+
+body {
+    background-size: cover;
+    background-position: center center;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, html {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.name__text {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.toDo {
+    font-size: 22px;
+}
+
+.toDo__button {
+    margin-right: 10px;
+    cursor: pointer;
+}

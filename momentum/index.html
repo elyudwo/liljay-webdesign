@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon"href="#">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body style = "background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(&quot;https://images.unsplash.com/photo-1543964198-d54e4f0e44e3?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=Mnw0MDI0M3wwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NzMyNDk0Ng&amp;ixlib=rb-1.2.1&amp;q=85&quot;);">
+    
+      <section class="center">
+        <div class="clock1">
+          <h3 id="clock" class="clock2">00:00</h3>
+        </div>
+        <div class="name">
+          <form id="login-form" class="hidden">
+            <input
+              class="name__input"
+              required
+              maxlength = "15"
+              type="text"
+              placeholder="What is ur name?"
+            />
+          </form>
+        </div>
+          <h1 id="greeting" class="name__text"></h1>
+        <form id="todo-form">
+          <input type="text" placeholder="Write a To Do and Press Enter" required/>
+        </form>
+        <ul id="todo-list" class="toDo" class="toDo__button">
+        </ul>
+        <div id="quote">
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+      
+      <div id="weather" class="location">
+        <span></span>
+        <span></span>
+      </div> 
+      <script src = "js/greetings.js"></script>
+      <script src = "js/clock.js"></script>
+      <script src = "js/background.js"></script>
+      
+      <script src = "js/todo.js"></script>
+      <script src = "js/weather.js"></script>
+  </body>
+</html>
